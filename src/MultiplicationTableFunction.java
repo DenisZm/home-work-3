@@ -1,12 +1,13 @@
 /**
- * Print Multiplication Table AxB size.
+ * Print AxB sized Multiplication Table.
  *
  * Created by Denis on 25.10.2016.
  */
+
 public class MultiplicationTableFunction {
     public static void main(String[] args) {
-        int x = Helper.inputInt("Input A:");
-        int y = Helper.inputInt("Input B:");
+        int x = (int) Helper.inputDouble("Input A:");
+        int y = (int) Helper.inputDouble("Input B:");
         System.out.println();
         printMultiplicationTable(x, y);
     }

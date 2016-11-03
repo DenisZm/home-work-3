@@ -7,16 +7,17 @@ import java.util.Scanner;
  *
  * Created by Denis on 25.10.2016.
  **/
+
 class Helper {
 
-    static int inputInt(String prompt) {
+    static double inputDouble(String prompt) {
         while (true) {
             System.out.print(prompt + " ");
             try {
                 Scanner in = new Scanner(System.in);
-                return in.nextInt();
+                return in.nextDouble();
             } catch (InputMismatchException ex) {
-                System.out.println("Please input integer");
+                System.out.println("Please input digit");
             }
         }
     }
@@ -50,6 +51,7 @@ class Helper {
 
     static int findMinInArray(int[] arr) {
         int min = arr[0];
+
         for (int anArr : arr) {
             if (min > anArr) {
                 min = anArr;
@@ -60,6 +62,7 @@ class Helper {
 
     static int[] sumArrayRows(int[][] arr) {
         int[] result = new int[arr.length];
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length ; j++) {
                 result[i] += arr[i][j];
