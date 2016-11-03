@@ -4,7 +4,6 @@
  *
  * Created by Denis on 26.10.2016.
  */
-
 public class Array2 {
     private static int START_RAND = -10;
     private static int END_RAND = 10;

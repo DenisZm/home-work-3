@@ -4,7 +4,6 @@
  *
  * Created by Denis on 25.10.2016.
  */
-
 public class Array1 {
     public static void main(String[] args) {
         int n = (int) Helper.inputDouble("Input array size:");

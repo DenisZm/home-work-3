@@ -7,7 +7,6 @@ import java.util.Scanner;
  *
  * Created by Denis on 25.10.2016.
  **/
-
 class Helper {
 
     static double inputDouble(String prompt) {

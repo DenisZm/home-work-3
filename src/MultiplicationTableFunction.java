@@ -3,7 +3,6 @@
  *
  * Created by Denis on 25.10.2016.
  */
-
 public class MultiplicationTableFunction {
     public static void main(String[] args) {
         int x = (int) Helper.inputDouble("Input A:");

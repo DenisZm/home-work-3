@@ -3,7 +3,6 @@
  *
  * Created by Denis on 25.10.2016.
  */
-
 public class RightTriangleArea {
     public static void main(String[] args) {
         double a = Helper.inputDouble("Input A side:");
