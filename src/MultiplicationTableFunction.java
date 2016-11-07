@@ -14,7 +14,7 @@ public class MultiplicationTableFunction {
     private static void printMultiplicationTable(int x, int y) {
         for (int i = 1; i <= y; i++) {
             for (int j = 1; j <= x; j++) {
-                System.out.printf("%-4d", (i * j));
+                System.out.printf("%4d", (i * j));
             }
             System.out.print("\n");
         }
